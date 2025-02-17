@@ -8,3 +8,10 @@
 [submodule "stretch_mujoco"]
 	path = stretch_mujoco
 	url = https://github.com/hello-robot/stretch_mujoco.git
+[submodule "robosuite"]
+	path = robosuite
+	url = https://github.com/ARISE-Initiative/robosuite
+	branch = robocasa_v0.1
+[submodule "robocasa"]
+	path = robocasa
+	url = https://github.com/robocasa/robocasa
