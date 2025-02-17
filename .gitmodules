@@ -1,0 +1,10 @@
+[submodule "stretch_ros2"]
+	path = stretch_ros2
+	url = https://github.com/AlfredMoore/stretch_ros2.git
+	branch = humble
+[submodule "stretch_urdf"]
+	path = stretch_urdf
+	url = https://github.com/hello-robot/stretch_urdf.git
+[submodule "stretch_mujoco"]
+	path = stretch_mujoco
+	url = https://github.com/hello-robot/stretch_mujoco.git
