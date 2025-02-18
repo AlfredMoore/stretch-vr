@@ -16,10 +16,9 @@ cd robosuite
 pip install -e .
 cd ../
 
-# Install Robocasa
+# Install Robocasa and assets
 cd robocasa
 pip install -e .
 pip install numba
-
-# python robocasa/scripts/download_kitchen_assets.py  
-# python robocasa/scripts/setup_macros.py   
+python robocasa/scripts/download_kitchen_assets.py
+python robocasa/scripts/setup_macros.py   

@@ -11,7 +11,7 @@
 [submodule "robosuite"]
 	path = robosuite
 	url = https://github.com/ARISE-Initiative/robosuite
-	branch = robocasa_v0.1
+	branch = master
 [submodule "robocasa"]
 	path = robocasa
 	url = https://github.com/robocasa/robocasa
