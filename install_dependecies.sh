@@ -20,5 +20,7 @@ cd ../
 cd robocasa
 pip install -e .
 pip install numba
+
+# Download assets
 python robocasa/scripts/download_kitchen_assets.py
 python robocasa/scripts/setup_macros.py   
