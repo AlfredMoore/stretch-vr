@@ -20,7 +20,15 @@ cd ../
 cd robocasa
 pip install -e .
 pip install numba
+cd ../
+
+# Install Stretch ROS2 dependencies
+cd stretch_ros2
+rosdep update
+rosdep install --from-paths . -r -y
+cd ../
 
 # Download assets
 python robocasa/scripts/download_kitchen_assets.py
 python robocasa/scripts/setup_macros.py   
+
